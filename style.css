@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/* CIMA */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+li, a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header-img {
+    background:linear-gradient( to right,rgba(188, 245, 242, 0.01),rgba(231, 142, 9, 0.459)),url(./assets/01.png) no-repeat center; 
+    background-size: cover;
+    height: 720px;
+    position: relative;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 13%;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    width: 40%;
+    margin-left: 13%;
+}
+.text h2,p{
+    color: #fff;
+}
+.text p{
+    padding-top: 20px;
+    font-size: 19px;
+    line-height: 23px;
+}
+button[type=submit]{
+    margin-top: 40px;
+    padding: 14px 28px;
+    color: white;
+    border:none;
+    background-color: orange;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+.btn-2 {
+    margin-left: 15px;
+}
+.logo {
+    width: 107px;
+    height: 107px;
+}
+
+/* CIMA */
+
+/* MEIO */
+.content {
+    background-color: rgb(221, 221, 221);
+}
+.part-1{ 
+  background-color: #fff;
+  margin: 0 180px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 220px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 1px;
+}
+
+.part-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .part-2_text {
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 12px;
+  }
+  .part-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 150px;
+    padding: 10px;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0 180px;
+    border-radius: 1px;
+  }
+
+  .pt1-ic {
+      width: 108px;
+      height: 108px;
+  }
+/* MEIO */
+.middle {
+    background: url(./assets/06.png) no-repeat center;
+    background-size: cover;
+    height: 720px;
+}
+.clients-text {
+    text-align: center;
+    padding: 12px;
+}
+.clients-logo {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 130px;
+    padding: 10px;
+    justify-content: center;
+}
+.form-part {
+    background: url(./assets/07.png) no-repeat center;
+    background-size: cover;
+    height: 720px;
+}
+.form-text {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 80px;
+}
+.form form {
+   display: flex;
+   flex-direction: column;
+   margin: 0 30%;
+}
+
+.form input[type="text"] {
+    padding: 20px;
+    border: none;
+    border-radius: 1px;
+}
+input[type="text"], textarea, input[type="submit"] {
+    margin: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.form textarea {
+    color: grey;
+    padding-left: 22px;
+    padding-top: 15px;
+    border: none;
+    border-radius: 1px;
+}
+
+.form input[type="submit"] {
+    padding: 15px;
+    border: none;
+    border-radius: 1px;
+    color: white;
+    font-size: 16px;
+    background-color: teal;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.footer-up {
+    background-color: rgba(0,0,0,0.9);
+}
+.content-footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 180px;
+}
+.logo-part {
+    padding: 0px 10px;
+}
+.logo-part img{
+    width: 120px;
+    height: 120px;
+}
+.logo-part .text-logo {
+    color: #fff;
+}
+.logo-part .readme-logo {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.readme-logo a {
+    color: #fff;
+    text-transform:initial;
+    font-size: 15px;
+}
+.useful-part {
+    margin-top: 40px;
+}
+.useful-part .text-useful {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+.useful-links li {
+    list-style: none;
+    margin: 20px 0px;
+}
+.useful-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 11px;
+}
+.contact-part {
+    margin-top: 40px;
+}
+.contact-part .text-contact {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact-part .text-ct ,.text-cta {
+    color: #fff;
+    margin: 9px 0px;
+    font-size: 16px;
+}
+.text-ct {
+    border-bottom: 1px solid grey;
+    width: fit-content;
+    padding-bottom: 11px;
+}
+.footer-down {
+    height: 35px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-down .text-down {
+    padding-top: 9px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.footer-down .icons {
+    padding-top: 9px;
+    color: #fff;
+}
+.ic-st {
+    /*padding-right: 15px;*/
+    padding: 0px 20px;
+}
+
+
