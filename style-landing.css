@@ -21,6 +21,7 @@ body{
   }
   .navbar li a:hover{
     background-color: none;
+    border-bottom: 2px solid rgba(255, 137, 3, 0.932) ;
     
   }
   .navbar-toggle {
